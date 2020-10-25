@@ -1,0 +1,3 @@
+/home/dark/CLionProjects/ppvis_2/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/dark/CLionProjects/ppvis_2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/dark/CLionProjects/ppvis_2/cmake-build-debug/CMakeFiles/ppvis_2.dir
