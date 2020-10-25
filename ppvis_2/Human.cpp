@@ -64,7 +64,8 @@ void Human::set_age(int new_age) {
 }
 
 void Human::set_gender(string gender) {
-    if (!(gender=="male")
+    if (!(gender=="male"||gender == "female")) this->gender="male";
+            else this->gender=gender;
 }
 
 int Student::get_group() {
