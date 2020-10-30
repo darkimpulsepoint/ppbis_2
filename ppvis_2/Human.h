@@ -1,7 +1,3 @@
-//
-// Created by dark on 10/22/20.
-//
-
 #ifndef PPVIS_2_HUMAN_H
 #define PPVIS_2_HUMAN_H
 
@@ -39,11 +35,12 @@ private:
     int max_course;
     string speciality;
 
+    bool check_is_expeled();
+
 public:
 
     int get_course();
     int get_group();
-
 
     string get_speciality();
 
@@ -53,6 +50,7 @@ public:
     void expel_student();
     void restore_student();
     void increase_course();
+
 };
 
 class Rector :public Human

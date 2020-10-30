@@ -8,25 +8,17 @@ Human::Human() {
 
 Human::Human(string name, string surname, string patronymic,string gender, int new_age) {
     this->name = name;
-
     this->surname = surname;
-
     this->patronymic = patronymic;
-
     this->gender = gender;
-
     this->age = new_age;
 }
 
 void Human::set_info(string name, string surname, string patronymic, string gender, int new_age) {
     this->name = name;
-
     this->surname = surname;
-
     this->patronymic = patronymic;
-
     this->gender = gender;
-
     this->age = new_age;
 }
 
@@ -81,15 +73,18 @@ string Student::get_speciality() {
 }
 
 void Student::set_max_course(int max_cours) {
+    if (this->is_expeled) return;
     this->max_course = max_cours;
 }
 
 void Student::set_group(int new_group) {
+    if (this->is_expeled) return;
         this->group = new_group;
 }
 
 
 void Student::set_speciality(string speciality) {
+    if (this->is_expeled) return;
         this->speciality = speciality;
 }
 
@@ -102,10 +97,15 @@ void Student::restore_student(){
 }
 
 void Student::increase_course() {
-        if (max_course != 0 && course < max_course) course++;
+    if (this->is_expeled) return;
+    if (max_course != 0 && course < max_course) course++;
 }
 
+bool Student::check_is_expeled() {
+    return is_expeled;
+}
 void Dean::set_faculty(string faculty){
+
     this->faculty=faculty;
 }
 
@@ -120,3 +120,4 @@ void Department_head::set_department(string department){
 string Department_head::get_department(){
     return department;
 }
+

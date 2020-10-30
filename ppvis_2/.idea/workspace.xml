@@ -11,7 +11,16 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="72aa98ec-d35b-4a29-b9b1-10cb6bccb176" name="Default Changelist" comment="" />
+    <list default="true" id="72aa98ec-d35b-4a29-b9b1-10cb6bccb176" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Human.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Human.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Human.h" beforeDir="false" afterPath="$PROJECT_DIR$/Human.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ppvis_2.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ppvis_2.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ppvis_2.dir/Human.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ppvis_2.dir/Human.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ppvis_2.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ppvis_2.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ppvis_2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ppvis_2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,6 +30,9 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1jO0193qyu8zA7DuhvsnYAIhetO" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -29,6 +41,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunManager">
     <configuration name="ppvis_2" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ppvis_2" TARGET_NAME="ppvis_2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ppvis_2" RUN_TARGET_NAME="ppvis_2">
@@ -48,10 +61,56 @@
       <option name="presentableId" value="Default" />
       <updated>1603659612794</updated>
       <workItem from="1603659617089" duration="7000" />
+      <workItem from="1603734404698" duration="305000" />
+      <workItem from="1603735199834" duration="1668000" />
+      <workItem from="1604018403778" duration="2247000" />
+      <workItem from="1604075453024" duration="2062000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="427" height="526" key="DebuggerActiveHint" timestamp="1604077343720">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="427" height="526" key="DebuggerActiveHint/0.27.1920.1053@0.27.1920.1053" timestamp="1604077343720" />
+    <state width="1874" height="343" key="GridCell.Tab.0.bottom" timestamp="1604077377862">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="343" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1604077377862" />
+    <state width="1874" height="343" key="GridCell.Tab.0.center" timestamp="1604077377862">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="343" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1604077377862" />
+    <state width="1874" height="343" key="GridCell.Tab.0.left" timestamp="1604077377861">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="343" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1604077377861" />
+    <state width="1874" height="343" key="GridCell.Tab.0.right" timestamp="1604077377862">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="343" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1604077377862" />
+    <state width="1874" height="343" key="GridCell.Tab.1.bottom" timestamp="1604077377863">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="343" key="GridCell.Tab.1.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1604077377863" />
+    <state width="1874" height="343" key="GridCell.Tab.1.center" timestamp="1604077377862">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="343" key="GridCell.Tab.1.center/0.27.1920.1053@0.27.1920.1053" timestamp="1604077377862" />
+    <state width="1874" height="343" key="GridCell.Tab.1.left" timestamp="1604077377862">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="343" key="GridCell.Tab.1.left/0.27.1920.1053@0.27.1920.1053" timestamp="1604077377862" />
+    <state width="1874" height="343" key="GridCell.Tab.1.right" timestamp="1604077377862">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="343" key="GridCell.Tab.1.right/0.27.1920.1053@0.27.1920.1053" timestamp="1604077377862" />
+    <state x="449" y="188" key="SettingsEditor" timestamp="1604021247133">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="449" y="188" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1604021247133" />
   </component>
 </project>
