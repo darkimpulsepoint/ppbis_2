@@ -22,17 +22,10 @@ void Human::set_info(string name, string surname, string patronymic, string gend
     this->age = new_age;
 }
 
-string Human::get_name() {
-    return name;
+string Human::get_full_name() {
+    string full_name= surname + " "+ name + " " + patronymic;
+    return full_name;
 }
-
-string Human::get_surname() {
-        return surname;
-    }
-
-string Human::get_patronymic() {
-        return patronymic;
-    }
 
 int Human::get_age() {
         return age;

@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/dark/CLionProjects/ppvis_2/Human.cpp" "/home/dark/CLionProjects/ppvis_2/cmake-build-debug/CMakeFiles/ppvis_2.dir/Human.cpp.o"
-  "/home/dark/CLionProjects/ppvis_2/main.cpp" "/home/dark/CLionProjects/ppvis_2/cmake-build-debug/CMakeFiles/ppvis_2.dir/main.cpp.o"
+  "C:/Users/Alex/Projects/PPVIS/PPVIS/ppvis_2/Human.cpp" "C:/Users/Alex/Projects/PPVIS/PPVIS/ppvis_2/cmake-build-debug/CMakeFiles/ppvis_2.dir/Human.cpp.obj"
+  "C:/Users/Alex/Projects/PPVIS/PPVIS/ppvis_2/main.cpp" "C:/Users/Alex/Projects/PPVIS/PPVIS/ppvis_2/cmake-build-debug/CMakeFiles/ppvis_2.dir/main.cpp.obj"
   )
-set(CMAKE_CXX_COMPILER_ID "GNU")
+set(CMAKE_CXX_COMPILER_ID "MSVC")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH

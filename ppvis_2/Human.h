@@ -13,11 +13,9 @@ private:
 
 public:
     Human();
-    Human(string name, string surname, string patronymic,string gender, int age);
+    Human(string surname, string name, string patronymic,string gender, int age);
     void set_info(string name, string surname, string patronymic,string gender, int age);
-    string get_name();
-    string get_surname();
-    string get_patronymic();
+    string get_full_name();
     int get_age();
 
     void set_name(string name);
