@@ -6,13 +6,13 @@ Human::Human() {
     set_age(0);
 }
 
-Human::Human(string name, string surname, string patronymic,string gender, int new_age) {
-    this->name = name;
-    this->surname = surname;
-    this->patronymic = patronymic;
-    this->gender = gender;
-    this->age = new_age;
-}
+//Human::Human(string name, string surname, string patronymic,string gender, int new_age) {
+//    this->name = name;
+//    this->surname = surname;
+//    this->patronymic = patronymic;
+//    this->gender = gender;
+//    this->age = new_age;
+//}
 
 void Human::set_info(string name, string surname, string patronymic, string gender, int new_age) {
     this->name = name;
@@ -53,6 +53,16 @@ void Human::set_gender(string gender) {
             else this->gender=gender;
 }
 
+Student::Student() {
+
+}
+
+Student::Student(int group, string speciality, int education_years) {
+    set_group(group);
+    set_speciality(speciality);
+    set_education_years(education_years);
+}
+
 int Student::get_group() {
     return group;
 }
@@ -65,9 +75,9 @@ string Student::get_speciality() {
         return speciality;
 }
 
-void Student::set_max_course(int max_cours) {
+void Student::set_education_years(int education_years) {
     if (this->is_expeled) return;
-    this->max_course = max_cours;
+    this->years_of_education = education_years;
 }
 
 void Student::set_group(int new_group) {
@@ -91,7 +101,7 @@ void Student::restore_student(){
 
 void Student::increase_course() {
     if (this->is_expeled) return;
-    if (max_course != 0 && course < max_course) course++;
+    if (years_of_education != 0 && course < years_of_education) course++;
 }
 
 bool Student::check_is_expeled() {

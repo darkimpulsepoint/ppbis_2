@@ -11,9 +11,11 @@ private:
     string gender;
     int age;
 
-public:
+protected:
     Human();
-    Human(string surname, string name, string patronymic,string gender, int age);
+
+
+public:
     void set_info(string name, string surname, string patronymic,string gender, int age);
     string get_full_name();
     int get_age();
@@ -30,19 +32,20 @@ private:
     bool is_expeled;
     int group;
     int course;
-    int max_course;
+    int years_of_education;
     string speciality;
 
     bool check_is_expeled();
 
 public:
-
+    Student();
+    Student(int group, string speciality, int education_years);
     int get_course();
     int get_group();
 
     string get_speciality();
 
-    void set_max_course(int max_course);
+    void set_education_years(int max_course);
     void set_group(int group);
     void set_speciality(string);
     void expel_student();
