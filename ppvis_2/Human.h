@@ -33,9 +33,10 @@ private:
     int group;
     int course;
     int years_of_education;
-    string speciality;
+    std::string speciality;
 
     bool check_is_expeled();
+    void set_speciality(string speciality);
 
 public:
     Student();
@@ -47,7 +48,8 @@ public:
 
     void set_education_years(int max_course);
     void set_group(int group);
-    void set_speciality(string);
+    void transfer_student(int group, string speciality);
+
     void expel_student();
     void restore_student();
     void increase_course();

@@ -54,13 +54,14 @@ void Human::set_gender(string gender) {
 }
 
 Student::Student() {
-
+    is_expeled=false;
 }
 
 Student::Student(int group, string speciality, int education_years) {
     set_group(group);
     set_speciality(speciality);
     set_education_years(education_years);
+    is_expeled=false;
 }
 
 int Student::get_group() {
@@ -76,18 +77,18 @@ string Student::get_speciality() {
 }
 
 void Student::set_education_years(int education_years) {
-    if (this->is_expeled) return;
+    if (check_is_expeled()) return;
     this->years_of_education = education_years;
 }
 
 void Student::set_group(int new_group) {
-    if (this->is_expeled) return;
+    if (check_is_expeled()) return;
         this->group = new_group;
 }
 
 
 void Student::set_speciality(string speciality) {
-    if (this->is_expeled) return;
+    if (check_is_expeled()) return;
         this->speciality = speciality;
 }
 
@@ -100,13 +101,20 @@ void Student::restore_student(){
 }
 
 void Student::increase_course() {
-    if (this->is_expeled) return;
+    if (check_is_expeled()) return;
     if (years_of_education != 0 && course < years_of_education) course++;
 }
 
 bool Student::check_is_expeled() {
     return is_expeled;
 }
+
+void Student::transfer_student(int new_group, string speciality) {
+    if (check_is_expeled()) return;
+    set_group(new_group);
+    set_speciality(speciality);
+}
+
 void Dean::set_faculty(string faculty){
 
     this->faculty=faculty;

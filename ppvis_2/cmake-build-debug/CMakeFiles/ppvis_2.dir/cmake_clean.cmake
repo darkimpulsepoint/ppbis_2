@@ -1,9 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/ppvis_2.dir/Human.cpp.obj"
-  "CMakeFiles/ppvis_2.dir/main.cpp.obj"
-  "ppvis_2.exe"
-  "ppvis_2.exe.manifest"
-  "ppvis_2.lib"
+  "CMakeFiles/ppvis_2.dir/Human.cpp.o"
+  "CMakeFiles/ppvis_2.dir/main.cpp.o"
+  "ppvis_2"
   "ppvis_2.pdb"
 )
 

@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/ppvis_2.dir/main.cpp.o CMakeFiles/ppvis_2.dir/Human.cpp.o  -o ppvis_2 
