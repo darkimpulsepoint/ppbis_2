@@ -14,12 +14,12 @@ Human::Human() {
 //    this->age = new_age;
 //}
 
-void Human::set_info(string name, string surname, string patronymic, string gender, int new_age) {
-    this->name = name;
-    this->surname = surname;
-    this->patronymic = patronymic;
-    this->gender = gender;
-    this->age = new_age;
+void Human::set_info(string surname, string name, string patronymic, string gender, int age) {
+    set_surname(surname);
+    set_name(name);
+    set_patronymic(patronymic);
+    set_gender(gender);
+    set_age(age);
 }
 
 string Human::get_full_name() {
@@ -55,7 +55,23 @@ void Human::set_gender(string gender) {
 
 Student::Student() {
     is_expeled=false;
+    skipped_classes=0;
 }
+
+void Student::increment_skipped_classes() {
+    if (check_is_expeled()) return;
+    skipped_classes++;
+}
+
+void Student::increment_skipped_classes(int skipped_classes) {
+    if (skipped_classes<this->skipped_classes) return;
+    this->skipped_classes=skipped_classes;
+}
+
+int Student::get_skipped_classes() {
+    return skipped_classes;
+}
+
 
 Student::Student(int group, string speciality, int education_years) {
     set_group(group);

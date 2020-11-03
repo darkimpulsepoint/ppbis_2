@@ -33,6 +33,7 @@ private:
     int group;
     int course;
     int years_of_education;
+    int skipped_classes;
     std::string speciality;
 
     bool check_is_expeled();
@@ -43,6 +44,7 @@ public:
     Student(int group, string speciality, int education_years);
     int get_course();
     int get_group();
+    int get_skipped_classes();
 
     string get_speciality();
 
@@ -50,6 +52,8 @@ public:
     void set_group(int group);
     void transfer_student(int group, string speciality);
 
+    void increment_skipped_classes();
+    void increment_skipped_classes(int skipped_classes);
     void expel_student();
     void restore_student();
     void increase_course();
