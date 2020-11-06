@@ -39,7 +39,7 @@ private:
 
 
 public:
- //   virtual void payment();
+    virtual void payment();
 
     Student();
     Student(int group, string speciality, int education_years);
@@ -74,7 +74,7 @@ public:
     void set_scolarship(double scholarsip);
     double get_scolarship();
 
- //   void payment() override;
+    void payment() override;
 
 };
 
@@ -86,7 +86,7 @@ public:
     student_paysite();
     student_paysite(double month_payment);
     void set_month_payment(double month_paysite);
-  //  void payment() override ;
+    void payment() override ;
     double get_month_payment();
 
 };

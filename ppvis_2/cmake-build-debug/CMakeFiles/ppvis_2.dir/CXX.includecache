@@ -6,17 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/dark/PPVIS/ppvis_2/Human.cpp
+C:/Users/Alex/CLionProjects/PPVIS/ppvis_2/Human.cpp
 iostream
 -
 Human.h
-/home/dark/PPVIS/ppvis_2/Human.h
+C:/Users/Alex/CLionProjects/PPVIS/ppvis_2/Human.h
 
-/home/dark/PPVIS/ppvis_2/Human.h
-
-/home/dark/PPVIS/ppvis_2/main.cpp
-iostream
--
-Human.h
-/home/dark/PPVIS/ppvis_2/Human.h
+C:/Users/Alex/CLionProjects/PPVIS/ppvis_2/Human.h
 
