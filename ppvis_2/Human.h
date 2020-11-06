@@ -37,16 +37,17 @@ private:
     int skipped_classes;
     std::string speciality;
 
-    virtual void payment();
-    bool check_is_expeled();
-    void set_speciality(string speciality);
 
 public:
+ //   virtual void payment();
+
     Student();
     Student(int group, string speciality, int education_years);
     int get_course();
     int get_group();
     int get_skipped_classes();
+
+    bool check_is_expeled();
 
     string get_speciality();
 
@@ -54,6 +55,7 @@ public:
     void set_group(int group);
     void transfer_student(int group, string speciality);
 
+    void set_speciality(string speciality);
     void increment_skipped_classes();
     void increment_skipped_classes(int skipped_classes);
     void expel_student();
@@ -72,7 +74,7 @@ public:
     void set_scolarship(double scholarsip);
     double get_scolarship();
 
-    void payment() override;
+ //   void payment() override;
 
 };
 
@@ -84,6 +86,7 @@ public:
     student_paysite();
     student_paysite(double month_payment);
     void set_month_payment(double month_paysite);
+  //  void payment() override ;
     double get_month_payment();
 
 };
