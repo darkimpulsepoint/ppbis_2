@@ -6,13 +6,6 @@ Human::Human() {
     set_age(0);
 }
 
-//Human::Human(string name, string surname, string patronymic,string gender, int new_age) {
-//    this->name = name;
-//    this->surname = surname;
-//    this->patronymic = patronymic;
-//    this->gender = gender;
-//    this->age = new_age;
-//}
 
 void Human::set_info(string surname, string name, string patronymic, string gender, int age) {
     set_surname(surname);
@@ -74,10 +67,10 @@ int Student::get_skipped_classes() {
 
 
 Student::Student(int group, string speciality, int education_years) {
+    is_expeled=false;
     set_group(group);
     set_speciality(speciality);
     set_education_years(education_years);
-    is_expeled=false;
 }
 
 int Student::get_group() {
@@ -129,6 +122,51 @@ void Student::transfer_student(int new_group, string speciality) {
     if (check_is_expeled()) return;
     set_group(new_group);
     set_speciality(speciality);
+}
+
+void budget_student::set_scolarship(double scholarsip) {
+    if (scholarsip<=0){
+        scholarsip=0;
+        return;
+    }
+    this->scholarship=scholarsip;
+}
+
+budget_student::budget_student() {
+    set_scolarship(0);
+}
+
+budget_student::budget_student(double scholarship) {
+    if (scholarship < 0) {
+        this->scholarship = 0;
+        return;
+    }
+    this->scholarship = scholarship;
+}
+
+double budget_student::get_scolarship() {
+    if (scholarship<0) return 0;
+    return scholarship;
+}
+
+student_paysite::student_paysite() {
+    set_month_payment(0);
+}
+
+student_paysite::student_paysite(double month_payment) {
+    set_month_payment(month_payment);
+}
+
+void student_paysite::set_month_payment(double month_paysite) {
+    if (month_paysite<=0) {
+        this->month_payment=0;
+        return;
+    }
+}
+
+double student_paysite::get_month_payment() {
+    if (month_payment<0) return 0;
+    return month_payment;
 }
 
 void Dean::set_faculty(string faculty){

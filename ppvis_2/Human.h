@@ -20,6 +20,7 @@ public:
     string get_full_name();
     int get_age();
 
+
     void set_name(string name);
     void set_surname(string surname);
     void set_patronymic(string patronymic);
@@ -36,6 +37,7 @@ private:
     int skipped_classes;
     std::string speciality;
 
+    virtual void payment();
     bool check_is_expeled();
     void set_speciality(string speciality);
 
@@ -57,6 +59,32 @@ public:
     void expel_student();
     void restore_student();
     void increase_course();
+
+};
+
+class budget_student:public Student{
+private:
+    double scholarship;
+
+public:
+    budget_student();
+    budget_student(double scholarship);
+    void set_scolarship(double scholarsip);
+    double get_scolarship();
+
+    void payment() override;
+
+};
+
+class student_paysite: public Student{
+private:
+    double month_payment;
+
+public:
+    student_paysite();
+    student_paysite(double month_payment);
+    void set_month_payment(double month_paysite);
+    double get_month_payment();
 
 };
 

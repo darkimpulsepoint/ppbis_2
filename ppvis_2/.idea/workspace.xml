@@ -15,6 +15,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Human.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Human.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Human.h" beforeDir="false" afterPath="$PROJECT_DIR$/Human.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +67,12 @@
       <workItem from="1604227706715" duration="2030000" />
       <workItem from="1604337251206" duration="664000" />
       <workItem from="1604396589313" duration="3245000" />
-      <workItem from="1604406908656" duration="341000" />
+      <workItem from="1604406908656" duration="960000" />
+      <workItem from="1604434900997" duration="888000" />
+      <workItem from="1604510070035" duration="18000" />
+      <workItem from="1604579102758" duration="27000" />
+      <workItem from="1604585819473" duration="1537000" />
+      <workItem from="1604657560427" duration="1649000" />
     </task>
     <servers />
   </component>
@@ -78,6 +84,10 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="427" height="526" key="DebuggerActiveHint/0.27.1920.1053@0.27.1920.1053" timestamp="1604077343720" />
+    <state x="730" y="292" width="424" height="521" key="FileChooserDialogImpl" timestamp="1604587321396">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="730" y="292" width="424" height="521" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1604587321396" />
     <state width="1354" height="261" key="GridCell.Tab.0.bottom" timestamp="1604352129610">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -118,5 +128,9 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="449" y="175" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1604399048213" />
+    <state x="616" y="265" width="672" height="678" key="search.everywhere.popup" timestamp="1604658313937">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="616" y="265" width="672" height="678" key="search.everywhere.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1604658313937" />
   </component>
 </project>
