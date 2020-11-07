@@ -6,12 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/dark/PPVIS/ppvis_2/Human.cpp
+C:/Users/Alex/CLionProjects/PPVIS/ppvis_2/Human.cpp
 iostream
 -
 Human.h
-/home/dark/PPVIS/ppvis_2/Human.h
+C:/Users/Alex/CLionProjects/PPVIS/ppvis_2/Human.h
 
+<<<<<<< HEAD
 /home/dark/PPVIS/ppvis_2/Human.h
 vector
 -
@@ -21,4 +22,7 @@ iostream
 -
 Human.h
 /home/dark/PPVIS/ppvis_2/Human.h
+=======
+C:/Users/Alex/CLionProjects/PPVIS/ppvis_2/Human.h
+>>>>>>> 3703bf7a0243332dfff0b777fb9b0eaf336d0edb
 

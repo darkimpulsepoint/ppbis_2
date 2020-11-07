@@ -144,13 +144,17 @@ budget_student::budget_student(double scholarship) {
     this->scholarship = scholarship;
 }
 
-//void budget_student::payment()  {
-//
-//}
-//
-//void student_paysite::payment()  {
-//
-//}
+void Student::payment() {
+
+}
+
+void budget_student::payment()  {
+
+}
+
+void student_paysite::payment()  {
+
+}
 
 double budget_student::get_scolarship() {
     if (scholarship<0) return 0;

@@ -4,5 +4,6 @@
 
 int main() {
 
+    Student j;
     return 0;
 }
