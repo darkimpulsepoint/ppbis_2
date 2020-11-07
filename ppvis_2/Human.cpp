@@ -177,6 +177,11 @@ double student_paysite::get_month_payment() {
     return month_payment;
 }
 
+void Rector::expel_student(Student *student) {
+    if (student== nullptr) return;
+    student->expel_student();
+}
+
 void Dean::set_faculty(string faculty){
 
     this->faculty=faculty;
@@ -194,3 +199,29 @@ string Department_head::get_department(){
     return department;
 }
 
+void faculty::set_dean(Dean *new_dean) {
+    this->dean=*new_dean;
+}
+
+void faculty::add_department(Department *new_department) {
+    if (new_department== nullptr) return;
+    departments.push_back(*new_department);
+}
+
+void University::add_faculty(faculty *new_faculty) {
+    if (new_faculty== nullptr) return;
+    faculties.push_back(*new_faculty);
+}
+
+vector<faculty> University::get_faculties(){
+    return faculties;
+}
+
+void Department::set_department_head(Department_head* department_head) {
+    if (department_head== nullptr) return;
+    head=*department_head;
+}
+
+Department_head Department::get_department_head() {
+    return head;
+}

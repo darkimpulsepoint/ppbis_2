@@ -1,6 +1,8 @@
 #ifndef PPVIS_2_HUMAN_H
 #define PPVIS_2_HUMAN_H
 
+#include <vector>
+
 using namespace std;
 
 class Human {
@@ -93,10 +95,11 @@ public:
 
 class Rector :public Human
 {
-
+public:
+    void expel_student(Student* student);
 };
 
-class Dean : public Human
+class Dean : public Rector
 {
 private:
     string faculty;
@@ -116,5 +119,36 @@ public:
     void set_department(string department);
     string get_department();
 };
+
+class Department{
+private:
+    string name;
+    Department_head head;
+
+public:
+    void set_department_head(Department_head* department_head);
+    Department_head get_department_head();
+
+};
+
+class faculty{
+private:
+    string name;
+    Dean dean;
+    vector<Department> departments;
+public:
+    void set_dean(Dean* new_dean);
+    void add_department(Department* new_department);
+};
+
+class University{
+private:
+    Rector rector;
+    std::vector<faculty> faculties;
+public:
+    void add_faculty(faculty* new_faculty);
+    vector<faculty> get_faculties();
+};
+
 
 #endif //PPVIS_2_HUMAN_H
